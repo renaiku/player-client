@@ -1,0 +1,19 @@
+.SelectableProfile {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Picture {
+	width: 128px;
+	height: 128px;
+}
+
+.Name {
+	width: 128px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}

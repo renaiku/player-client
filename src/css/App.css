@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+}
+
+#root {
+	height: 100%;
+}
+
+.App {
+	background-color: red;
+	height: 100%;
+}
