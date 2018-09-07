@@ -1,8 +1,13 @@
 .SelectableProfile {
-	display: flex;
-	flex-direction: column;
+	display: inline-block;
 	padding: 10px;
 	background-color: rgba(0, 0, 0, 0.5);
+	margin: 6px;
+}
+
+.SelectableProfile:hover {
+	cursor: pointer;
+	background-color: rgba(255, 165, 0, 0.9);
 }
 
 .Picture {
@@ -12,7 +17,7 @@
 
 .Name {
 	width: 128px;
-	padding: 10px;
+	padding: 10px 0;
 	text-align: center;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);

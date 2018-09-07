@@ -6,7 +6,25 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<SelectableProfile />
+				<div className="Banner">PlayeR</div> 
+				<div className="ProfilesContainer">
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+					<SelectableProfile />
+				</div>
 			</div>
 		);
 	}

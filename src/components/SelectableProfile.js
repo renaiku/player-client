@@ -6,7 +6,7 @@ class SelectableProfile extends Component {
 	render() {
 		return (
 			<div className="SelectableProfile">
-				<img src={defaultUserPicture} className="Picture" alt="default user picture" />
+				<img src={defaultUserPicture} className="Picture" alt="default user picture" draggable="false"/>
 				<div className="Name">renaiku</div>
 			</div>
 		);

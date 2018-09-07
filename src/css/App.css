@@ -1,5 +1,6 @@
 body {
-    height: 100vh;
+	user-select: none;
+	background-color: rgb(30, 30, 30);
 }
 
 #root {
@@ -7,6 +8,17 @@ body {
 }
 
 .App {
-	background-color: red;
 	height: 100%;
+}
+
+.Banner {
+	font-family: 'Monoton', cursive;
+	color: orange;
+	text-align: center;
+	font-size: 5em;
+}
+
+.ProfilesContainer {
+	width: 960px;
+	margin: auto;
 }
