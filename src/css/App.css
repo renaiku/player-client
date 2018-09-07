@@ -13,7 +13,7 @@ body {
 
 .Banner {
 	font-family: 'Monoton', cursive;
-	color: orange;
+	color: rgb(255, 165, 0);
 	text-align: center;
 	font-size: 5em;
 }

@@ -15,10 +15,15 @@
 	height: 128px;
 }
 
-.Name {
-	width: 128px;
-	padding: 10px 0;
+.NameContainer {
+	width: 108px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.Name {	
 	text-align: center;
 	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: red;
+	white-space: nowrap;
+	overflow: hidden;
 }
