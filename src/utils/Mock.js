@@ -1,0 +1,17 @@
+export const users = [
+    { id: 1, name: "renaiku", isAdmin: true },
+    { id: 2, name: "patou", isAdmin: true },
+    { id: 3, name: "juju" },
+    { id: 4, name: "laurie" },
+    { id: 5, name: "élo" },
+    { id: 6, name: "vivi" },
+    { id: 7, name: "laurine" },
+    { id: 8, name: "maman" },
+    { id: 9, name: "valou" },
+    { id: 10, name: "robert pattison premier du nom" },
+    { id: 11, name: "calzone" },
+    { id: 12, name: "fred" },
+    { id: 13, name: "père-noël" },
+    { id: 14, name: "fred2" },
+    { id: 15, name: "iron-man" },
+];
