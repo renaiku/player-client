@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/App.css';
 import ProfilesContainer from './ProfilesContainer';
+import Library from './Library';
 import { connect } from "react-redux";
 import { Constants } from '../utils/Constants';
 
@@ -15,13 +16,7 @@ class App extends Component {
 			</React.Fragment>
 		);
 
-		const test = (
-			<div className="Test">NOPE</div>
-		);
-
-		console.log('ID = ' + this.props.user.id)
-
-		const page = this.props.user.id === Constants.UNDEFINED ? profileSelection : test;
+		const page = this.props.user.id === Constants.UNDEFINED ? profileSelection : <Library />;
 
 		return (
 			<div className="App">
