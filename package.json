@@ -1,21 +1,42 @@
 {
-  "name": "player-client",
+  "name": "electron-create-react-app-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "author": "didaquis",
   "dependencies": {
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
-    "react-scripts": "1.1.5",
-    "redux": "^4.0.0",
-    "react-redux": "^5.0.7"
+    "ajv": "^6.5.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "^1.1.5",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "electron": "^2.0.9",
+    "electron-builder": "^20.28.4",
+    "foreman": "^3.0.1"
   },
   "scripts": {
+    "dev": "nf start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "ebuild": "npm run build && node_modules/.bin/build"
   },
-  "devDependencies": {
-    "react-redux": "^5.0.7"
+  "description": "React Electron App",
+  "homepage": "./",
+  "main": "electron/main.js",
+  "build": {
+    "extends": null,
+    "productName": "React Electron App",
+    "appId": "com.example.app",
+    "electronVersion": "1.8.2",
+    "files": [
+      "build/**/*",
+      "electron/*"
+    ]
   }
 }

@@ -6,6 +6,7 @@ import User from '../models/User';
 
 // CSS & OTHERS
 import '../css/Header.css';
+//import { strings } from '../locales/i18n';
 
 // COMPONENT CLASS
 class Header extends Component {
@@ -13,6 +14,7 @@ class Header extends Component {
 	render() {
 		return (
 			<div className="Header">
+                {/* strings('Library.welcome', { name: this.props.user.name }) */}
                 {this.props.user.id} - {this.props.user.name}
 			</div>
 		);

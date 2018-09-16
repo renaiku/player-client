@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#title-bar {
+    -webkit-app-region: drag;
+    height: 32px;
+    background-color: rgb(51, 51, 51);
+    margin: 0;
+    border: 1px solid rgb(255,140,0);
+    border-width: 0 0 1px 0;
+}
+
+#title {
+    position: fixed;
+    top: 6px;
+    left: 8px;
+    color: white;
+}
+
+#title-bar-btns {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    right: 6px;
+}
+
+.title-bar-btn {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    border: 1px solid rgb(28, 28, 28);
+    border-radius: 0 0 4px 4px;
+    border-top: none;
+    padding: 0 10px 0 10px;
+    outline: none;
+}
+
+#min-btn:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+#close-btn:hover {
+    background-color: rgb(150, 80, 80);
+}

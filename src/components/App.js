@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/App.css';
+import TitleBar from './TitleBar';
 import ProfilesContainer from './ProfilesContainer';
 import Library from './Library';
 import { connect } from "react-redux";
@@ -10,7 +11,8 @@ class App extends Component {
 	render() {
 
 		const profileSelection = (
-			<React.Fragment>				
+			<React.Fragment>
+				<TitleBar title="Player 0.1.0"/>
 				<div className="Banner">PlayeR</div> 
 				<ProfilesContainer />
 			</React.Fragment>
