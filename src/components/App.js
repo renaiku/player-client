@@ -11,8 +11,7 @@ class App extends Component {
 	render() {
 
 		const profileSelection = (
-			<React.Fragment>
-				<TitleBar title="Player 0.1.0"/>
+			<React.Fragment>				
 				<div className="Banner">PlayeR</div> 
 				<ProfilesContainer />
 			</React.Fragment>
@@ -22,6 +21,7 @@ class App extends Component {
 
 		return (
 			<div className="App">
+				<TitleBar title="Player 0.1.0"/>
 				{page}
 			</div>
 		);

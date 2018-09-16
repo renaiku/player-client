@@ -1,8 +1,21 @@
 {
-  "name": "electron-create-react-app-boilerplate",
+  "name": "PlayeR",
+  "description": "PlayeR Electron App",
+  "author": "renaiku",
   "version": "0.1.0",
   "private": true,
-  "author": "didaquis",
+  "homepage": "./",
+  "main": "electron/main.js",
+  "build": {
+    "extends": null,
+    "productName": "PlayeR Electron App",
+    "appId": "com.karasu.player",
+    "electronVersion": "1.8.2",
+    "files": [
+      "build/**/*",
+      "electron/*"
+    ]
+  },
   "dependencies": {
     "ajv": "^6.5.3",
     "prop-types": "^15.6.1",
@@ -25,18 +38,5 @@
     "eject": "react-scripts eject",
     "electron": "electron .",
     "ebuild": "npm run build && node_modules/.bin/build"
-  },
-  "description": "React Electron App",
-  "homepage": "./",
-  "main": "electron/main.js",
-  "build": {
-    "extends": null,
-    "productName": "React Electron App",
-    "appId": "com.example.app",
-    "electronVersion": "1.8.2",
-    "files": [
-      "build/**/*",
-      "electron/*"
-    ]
   }
 }

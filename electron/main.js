@@ -10,7 +10,10 @@ function createWindow () {
 	// Create the browser window.
 	mainWindow = new BrowserWindow({
 		width: 1000,
-		height: 800
+		height: 800,
+		resizable: false,
+        frame: false,
+        icon: path.join(__dirname, 'src/img/icons/png/64x64.png')
 	})
 
 	const startUrl = process.env.ELECTRON_START_URL || url.format({
